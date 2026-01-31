@@ -1,0 +1,86 @@
+body {
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  background: linear-gradient(135deg, #f5f7fb, #eef1f8);
+  color: #1b1b1b;
+  margin: 0;
+  padding: 30px;
+  direction: rtl;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+h2 {
+  margin: 35px 0 12px;
+  font-size: 22px;
+  color: #1f3a93;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 22px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+#results p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+#results ul {
+  margin-top: 12px;
+  padding-right: 18px;
+}
+
+#results li {
+  margin: 8px 0;
+  font-size: 15px;
+}
+
+canvas {
+  max-width: 100%;
+}
+
+
+
+.table-card {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 15px;
+}
+
+thead {
+  background: #1f3a93;
+  color: #fff;
+}
+
+th, td {
+  padding: 12px 10px;
+  border-bottom: 1px solid #eee;
+}
+
+tbody tr:hover {
+  background: #f4f6ff;
+}
+
+/* ألوان المجموعات */
+.cluster {
+  font-weight: bold;
+  padding: 6px 10px;
+  border-radius: 12px;
+  color: #fff;
+  display: inline-block;
+}
+
+.c0 { background: #e74c3c; }  /* دخل مرتفع + إنفاق مرتفع */
+.c1 { background: #3498db; }  /* دخل متوسط + إنفاق ضعيف */
+.c2 { background: #2ecc71; }  /* دخل متوسط + إنفاق متوسط */
+.c3 { background: #f39c12; }  /* دخل منخفض + إنفاق منخفض */

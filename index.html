@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>K-Means Visualization</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+<div class="container">
+
+  <h2>النتائج النهائية</h2>
+  <div id="results" class="card"></div>
+
+  <h2>جدول بيانات العملاء</h2>
+  <div class="card table-card">
+    <table id="customersTable">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>الدخل السنوي</th>
+          <th>درجة الإنفاق</th>
+          <th>المجموعة</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <h2>Scatter Plot (Clusters)</h2>
+  <div class="card">
+    <canvas id="chartScatter"></canvas>
+  </div>
+
+  <h2>Elbow Plot</h2>
+  <div class="card">
+    <canvas id="chartElbow"></canvas>
+  </div>
+
+</div>
+
+<script type="module" src="./kmeans-browser.js"></script>
+</body>
+</html>

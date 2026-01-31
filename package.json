@@ -1,0 +1,17 @@
+{
+  "name": "kmeans-project",
+  "version": "1.0.0",
+  "main": "data.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chart.js": "^4.5.1",
+    "ml-kmeans": "^7.0.0"
+  }
+}
